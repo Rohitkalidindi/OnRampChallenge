@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OnRampChallenge</string>
+    <string name="logout">Logout</string>
+    <string name="dropboximage">DropBox Image</string>
+    <string name="login">Login with Dropbox</string>
+    <string name="imagedescription">image</string>
+    <string name="save">Save</string>
+    <string name="applyeffects">Effects</string>
+	<string name="path">file:///sdcard/temporary_file.jpg</string>
+</resources>

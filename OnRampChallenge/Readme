@@ -1,0 +1,53 @@
+****Functions Completed****
+a. Allows a user to authenticate with their Dropbox credentials
+b. Allows a user to take a photo
+c. Uploads the photo to a directory on Dropbox
+d. Lists all photos that have been uploaded to that directory, and view selected photos.
+e. Records the GPS coordinates of the photograph
+f. Share uploaded photo with friends on Facebook
+g. Title of the photo should contain city where it was taken
+h. Allow user to apply effects to photographs
+i. Allow user to record sound clips in addition to photographs
+j. Allow user to create and store text notes in addition to sound clips and photographs
+
+****Functions Not Completed****
+a. Display all photos in the user’s Dropbox directory on a map  
+b. Write some unit tests
+c. Allow user to trim sound clips
+d. Provide a rich text editor for text notes
+Reason: Time not sufficient.
+
+****Activities, Interface and AsyncTasks used****
+
+LoginActivity: a.Authenticates user
+			   b.Stores accessTokenPair to reauthenticate user automatically
+			   c.Checks for Internet Access on device before authenticating.
+
+MenuActivity: a. List of all functions.
+			  b. Records GPS coordinates of user
+			  c. Allows user to logout.
+			  d. Allows user to take photos
+			  
+PhotoListActivity: a. Lists all photos in dropbox directory
+				   b. Click on item to view photo
+				   
+PhotoActivity: a. To see the photo.
+			   b. Allows user to apply effects
+			   c. Allows user to share
+			   
+ListOfEffectsActivity a. provides a listview with all effects you can use on a photo
+
+EffectAddedActivity a. shows image after effect is applied
+
+TextEditorActivity a. Allows user to type text and save in dropbox folder
+
+AudioRecorderActivity a. Allows user to record audio (***Could have worked more on UI***) 
+					  b. Allows user to save the file
+
+AsyncTaskResponse: Interface implemented to get result back from AsyncTask to Activity
+
+DropboxPhotoListTask: gets list of all photos in dropbox folder
+
+DropboxTask: To save file in dropbox folder
+
+GetDropboxImageTask: Get an image from dropbox folder			

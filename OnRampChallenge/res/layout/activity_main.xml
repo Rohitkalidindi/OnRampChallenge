@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dropbox"
+        android:contentDescription="@string/dropboximage" />
+    <Button 
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:radius="10dp"/>
+
+</LinearLayout>
